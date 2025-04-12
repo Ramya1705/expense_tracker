@@ -1,0 +1,37 @@
+# 💸 Expense Tracker App
+
+This is a simple **Expense Tracker** web application built using **Streamlit**. It allows users to record and visualize their expenses in an interactive way. The application helps users manage their finances by categorizing expenses and showing visual summaries like pie charts and bar graphs.
+
+---
+
+## 🚀 Features
+
+- Add new expense entries with categories
+- Display expense history
+- Visualize expenses using pie charts and bar graphs
+- Filter by date or category (optional)
+- User-friendly Streamlit interface
+
+---
+
+## 🖥️ Tech Stack
+
+- **Frontend**: Streamlit
+- **Backend**: Python
+- **Visualization**: Matplotlib, pandas
+- **Environment Management**: virtualenv / conda
+
+---
+
+## 🔧 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Ramya1705/expense_tracker.git 
+cd expense-tracker
+2. Create & Activate Virtual Environment
+python -m venv env
+.\env\Scripts\activate
+3. Install Required Dependencies
+pip install -r requirements.txt

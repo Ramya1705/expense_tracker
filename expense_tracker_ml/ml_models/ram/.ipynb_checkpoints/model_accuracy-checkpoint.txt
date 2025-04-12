@@ -1,0 +1,1 @@
+Model R-squared Accuracy: 0.3636
