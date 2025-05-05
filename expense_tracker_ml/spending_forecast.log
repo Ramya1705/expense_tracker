@@ -1,0 +1,60 @@
+2025-05-03 16:55:00,462 - INFO - Starting spending forecast model training...
+2025-05-03 16:55:00,561 - INFO - Linear Regression - R²: 0.0000, MAE: 73432.13
+2025-05-03 16:55:00,872 - INFO - Random Forest - R²: 0.0000, MAE: 7297.27
+2025-05-03 16:55:00,907 - INFO - Support Vector Machine - R²: 0.0000, MAE: 2.29
+2025-05-03 16:55:00,940 - INFO - Ridge Regression - R²: 0.0000, MAE: 73310.79
+2025-05-03 16:55:00,982 - INFO - Lasso Regression - R²: 0.0000, MAE: 73426.72
+2025-05-03 16:55:01,235 - INFO - Model artifacts saved to ml_models/Ramya/
+2025-05-03 18:09:50,323 - INFO - Starting spending forecast model training for Ramya...
+2025-05-03 18:09:50,325 - INFO - Data shape: (86, 5)
+2025-05-03 18:09:50,326 - INFO - Columns: Date, Type, Category, Amount, Comment
+2025-05-03 18:09:50,328 - WARNING - Found 44 rows with invalid dates that will be dropped
+2025-05-03 18:09:50,331 - INFO - Date range: 2005-05-01 00:00:00 to 2025-12-04 00:00:00
+2025-05-03 18:09:50,332 - INFO - Found 37 expense records
+2025-05-03 18:09:50,335 - INFO - Amount range: 30.0 to 20000.0
+2025-05-03 18:09:50,340 - INFO - Successfully aggregated data by month, got 248 months
+2025-05-03 18:09:50,348 - INFO - Features created: 23 features
+2025-05-03 18:09:50,351 - INFO - Target mean: 116.21, std: 1305.74, min: 0.00, max: 20200.00
+2025-05-03 18:09:50,352 - INFO - Cross-validation with 3 splits, test size 2
+2025-05-03 18:09:50,355 - INFO - Linear Regression - Fold 1: Train size=242, Test size=2
+2025-05-03 18:09:50,366 - INFO - Linear Regression - Fold 1: R²=-0.6642, MAE=189.43
+2025-05-03 18:09:50,368 - INFO - Linear Regression - Fold 2: Train size=244, Test size=2
+2025-05-03 18:09:50,379 - WARNING - Linear Regression - Fold 2: Invalid R² score: -1.7055967528326663
+2025-05-03 18:09:50,381 - INFO - Linear Regression - Fold 3: Train size=246, Test size=2
+2025-05-03 18:09:50,392 - INFO - Linear Regression - Fold 3: R²=-0.1673, MAE=9937.23
+2025-05-03 18:09:50,393 - INFO - Linear Regression - Final: R²=-0.4157, MAE=5063.33
+2025-05-03 18:09:50,396 - INFO - Random Forest - Fold 1: Train size=242, Test size=2
+2025-05-03 18:09:50,449 - INFO - Random Forest - Fold 1: R²=-0.0148, MAE=178.50
+2025-05-03 18:09:50,451 - INFO - Random Forest - Fold 2: Train size=244, Test size=2
+2025-05-03 18:09:50,505 - WARNING - Random Forest - Fold 2: Invalid R² score: -2.2075367424732293
+2025-05-03 18:09:50,507 - INFO - Random Forest - Fold 3: Train size=246, Test size=2
+2025-05-03 18:09:50,562 - INFO - Random Forest - Fold 3: R²=-0.8054, MAE=9443.00
+2025-05-03 18:09:50,564 - INFO - Random Forest - Final: R²=-0.4101, MAE=4810.75
+2025-05-03 18:09:50,566 - INFO - Support Vector Machine - Fold 1: Train size=242, Test size=2
+2025-05-03 18:09:50,576 - WARNING - Support Vector Machine - Fold 1: Invalid R² score: -3.089585175562153
+2025-05-03 18:09:50,577 - INFO - Support Vector Machine - Fold 2: Train size=244, Test size=2
+2025-05-03 18:09:50,587 - WARNING - Support Vector Machine - Fold 2: Invalid R² score: -10.141925667758063
+2025-05-03 18:09:50,589 - INFO - Support Vector Machine - Fold 3: Train size=246, Test size=2
+2025-05-03 18:09:50,600 - WARNING - Support Vector Machine - Fold 3: Invalid R² score: -1.297484187498569
+2025-05-03 18:09:50,601 - WARNING - Support Vector Machine - No valid folds completed
+2025-05-03 18:09:50,603 - INFO - Ridge Regression - Fold 1: Train size=242, Test size=2
+2025-05-03 18:09:50,617 - INFO - Ridge Regression - Fold 1: R²=-0.6586, MAE=189.47
+2025-05-03 18:09:50,619 - INFO - Ridge Regression - Fold 2: Train size=244, Test size=2
+2025-05-03 18:09:50,631 - WARNING - Ridge Regression - Fold 2: Invalid R² score: -1.6746556870679625
+2025-05-03 18:09:50,632 - INFO - Ridge Regression - Fold 3: Train size=246, Test size=2
+2025-05-03 18:09:50,644 - INFO - Ridge Regression - Fold 3: R²=-0.1701, MAE=9937.48
+2025-05-03 18:09:50,645 - INFO - Ridge Regression - Final: R²=-0.4143, MAE=5063.48
+2025-05-03 18:09:50,647 - INFO - Lasso Regression - Fold 1: Train size=242, Test size=2
+2025-05-03 18:09:50,660 - INFO - Lasso Regression - Fold 1: R²=-0.6614, MAE=189.48
+2025-05-03 18:09:50,662 - INFO - Lasso Regression - Fold 2: Train size=244, Test size=2
+2025-05-03 18:09:50,673 - WARNING - Lasso Regression - Fold 2: Invalid R² score: -1.703782986809153
+2025-05-03 18:09:50,675 - INFO - Lasso Regression - Fold 3: Train size=246, Test size=2
+2025-05-03 18:09:50,686 - INFO - Lasso Regression - Fold 3: R²=-0.1692, MAE=9939.01
+2025-05-03 18:09:50,687 - INFO - Lasso Regression - Final: R²=-0.4153, MAE=5064.25
+2025-05-03 18:09:50,688 - INFO - Selected model: Random Forest
+2025-05-03 18:09:50,738 - INFO - Final model training completed
+2025-05-03 18:09:50,743 - INFO - Forecast for Jan 2026: Rs.2368.54
+2025-05-03 18:09:50,748 - INFO - Forecast for Feb 2026: Rs.2222.17
+2025-05-03 18:09:50,754 - INFO - Forecast for Mar 2026: Rs.2245.21
+2025-05-03 18:09:50,987 - INFO - Forecast plot saved to forecast_plots/Ramya_20250503.png
+2025-05-03 18:09:51,141 - INFO - Model artifacts saved to ml_models/Ramya/

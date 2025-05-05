@@ -49,6 +49,6 @@ if user:
         forecast, r2_score = train_spending_forecast_model(df, user)
         if forecast:
             st.write(f"📅 **Next Month's Forecast**: ₹{forecast:.2f}")
-            st.write(f"📊 **Model Accuracy (R² Score)**: {r2_score:.4f}")
+            # st.write(f"📊 **Model Accuracy (R² Score)**: {r2_score:.2f}")
         else:
             st.warning("Not enough data to forecast.")

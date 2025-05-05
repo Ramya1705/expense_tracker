@@ -23,3 +23,65 @@ Date,Type,Category,Amount,Comment
 12-04-2025,Expense,Food,64.0,went to restaurant
 12-04-2025,Expense,Bills,80.0,paid bill
 12-04-2025,Expense,Food,1000.0,went to restaurant
+13-04-2025,Expense,Food,90.0,ate street food
+13-04-2025,Expense,Travel,90.0,ate street food
+13-04-2025,Expense,Travel,90.0,went some where
+13-04-2025,Expense,Travel,90.0,went some where
+10-04-2025,Expense,Travel,90.0,went some where
+10-04-2025,Expense,Travel,90.0,went some where
+02-04-2025,Expense,Travel,90.0,went some where
+03-04-2025,Expense,Travel,90.0,went some where
+04-04-2025,Expense,Travel,90.0,went some where
+05-04-2025,Expense,Travel,90.0,went some where
+06-04-2025,Expense,Travel,90.0,went some where
+07-04-2025,Expense,Travel,90.0,went some where
+08-04-2025,Expense,Travel,90.0,went some where
+09-04-2025,Expense,Travel,90.0,went some where
+10-04-2025,Expense,Travel,90.0,went some where
+11-04-2025,Expense,Travel,200.0,went some where
+11-04-2025,Expense,Travel,20000.0,went some where
+13-04-2025,Expense,Travel,40.0,went some where
+13-04-2025,Expense,Travel,30.0,went some where
+15-04-2025,Expense,Food,30.0,ate street food
+15-04-2025,Expense,Food,30.0,ate street food
+15-01-2025,Expense,Food,30.0,ate street food
+31-12-2025,Expense,Food,30.0,ate street food
+31-12-2025,Expense,Bills,30.0,paid Bill
+31-12-2025,Expense,Bills,30.0,paid Bill
+31-12-2025,Expense,Bills,30.0,paid Bill
+13-10-2025,Expense,Bills,30.0,paid Bill
+10-10-2025,Expense,Bills,30.0,paid Bill
+13-10-2025,Expense,Bills,30.0,paid Bill
+14-10-2025,Expense,Bills,30.0,paid Bill
+15-10-2025,Expense,Bills,30.0,paid Bill
+18-10-2025,Expense,Bills,30.0,paid Bill
+19-10-2025,Expense,Bills,30.0,paid Bill
+20-10-2025,Expense,Bills,30.0,paid Bill
+21-10-2025,Expense,Bills,30.0,paid Bill
+22-10-2025,Expense,Bills,30.0,paid Bill
+23-10-2025,Expense,Bills,30.0,paid Bill
+24-10-2025,Expense,Bills,30.0,paid Bill
+25-10-2025,Expense,Bills,30.0,paid Bill
+26-10-2025,Expense,Bills,30.0,paid Bill
+27-10-2025,Expense,Bills,30.0,paid Bill
+28-10-2025,Expense,Bills,30.0,paid Bill
+29-10-2025,Expense,Bills,30.0,paid Bill
+15-04-2025,Expense,Bills,30.0,paid Bill
+14-04-2025,Expense,Food,50.0,ate street food
+13-04-2025,Expense,Food,30.0,ate street food
+13-04-2025,Expense,Travel,5000.0,went to other state
+12-04-2025,Expense,Food,70.0,ate street food
+12-04-2025,Expense,Food,100.0,ate street food
+06-03-2024,Expense,Food,100.0,ate street food
+15-04-2024,Expense,Bills,100.0,paid bill
+16-04-2024,Expense,Bills,200.0,paid bill
+17-04-2024,Expense,Bills,49.0,paid bill
+15-04-2024,Expense,Bills,65.0,paid bill
+15-04-2025,Income,Food,30.0,ate street food
+22-04-2025,Expense,Bills,45.0,paid bill
+23-04-2025,Expense,Food,0.25,ate street food
+23-04-2025,Expense,Food,200.0,ate street food
+05-04-2025,Income,Food,300.0,ate food
+05-01-2025,Income,Bills,59.0,ndf
+05-04-2025,Income,Travel,50.0,bofk
+05-01-2025,Expense,Bills,50.0,
